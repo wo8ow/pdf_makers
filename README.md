@@ -108,13 +108,14 @@ function generarPDF() {
 }
 
 
-
+////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //Codigo en hoja de solicitudes de información publica para generar pdf y enviar a correos la solicitud.
+////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 function generarPDFyEnviarCorreo(fila) {
-  const hojaNombre = "SolicitudesInfo"; // Cambia al nombre de la nueva hoja
-  const plantillaId = "1OORVO2c_4ZcAj5OgNKp2RiEVx74xUdQrAHyzTs3Fo-I"; // ID de la plantilla
-  const carpetaId = "1__RDFSm3fAtYgfKz7jM8gt3koJ9KbMYT"; // ID de la carpeta
+  const hojaNombre = "poner aqui id nombre"; 
+  const plantillaId = "poner aqui id"; 
+  const carpetaId = "poner aqui id"; 
 
   try {
     // Obtener datos de la hoja de cálculo
